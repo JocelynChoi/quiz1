@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+    <title>Jocelyn's Quiz</title>
+</head>
+<style>
+body {
+    background: lightblue;
+}
+
+#after_submit {
+    visibility: hidden;
+}
+
+
+</style>
+
+<body>
+<h1>Best quiz in the world!</h1>
+<div id="time-left"></div>
+
+
+
+
+<form id = "quiz" name = "quiz">
+    <p>What is the capital of New Jersey?</p>
+    <input type = "radio" id = "mc" name = "question1" value ="Jersey City">Jersey City<br>
+    <input type = "radio" id = "mc" name = "question1" value= "Trenton">Trenton<br>
+
+    <p>What is the capital of New York?</p>
+    <input type = "radio" id = "mc" name = "question2" value ="Albany">Albany<br>
+    <input type = "radio" id = "mc" name = "question2" value= "New York City">New York City<br>
+
+    <p>What is the capital of Texas?</p>
+    <input type = "radio" id = "mc" name = "question3" value ="Dallas">Dallas<br>
+    <input type = "radio" id = "mc" name = "question3" value= "Austin">Austin<br>
+
+    <p>What is the capital of California?</p>
+    <input type = "radio" id = "mc" name = "question4" value ="Los Angeles">Los Angeles<br>
+    <input type = "radio" id = "mc" name = "question4" value= "Sacramento">Sacramento<br>
+
+    <p>What is the capital of Florida?</p>
+    <input type = "radio" id = "mc" name = "question5" value ="Tallahassee">Tallahassee<br>
+    <input type = "radio" id = "mc" name = "question5" value= "Miami">Miami<br>
+
+    <p>What is the capital of Alaska?</p>
+    <input type = "radio" id = "mc" name = "question6" value ="Anchorage">Anchorage<br>
+    <input type = "radio" id = "mc" name = "question6" value= "Juneau">Juneau<br>
+
+    <p>What is the capital of Illinois?</p>
+    <input type = "radio" id = "mc" name = "question7" value ="Chicago">Chicago<br>
+    <input type = "radio" id = "mc" name = "question7" value= "Springfield">Springfield<br>
+
+    <p>What is the capital of Kansas?</p>
+    <input type = "radio" id = "mc" name = "question8" value ="Kansas City">Kansas City<br>
+    <input type = "radio" id = "mc" name = "question8" value= "Topeka">Topeka<br>
+
+    <p>What is the capital of Pennsylvania?</p>
+    <input type = "radio" id = "mc" name = "question9" value ="Philadelphia">Philadelphia<br>
+    <input type = "radio" id = "mc" name = "question9" value= "Harrisburg">Harrisburg<br>
+
+
+    
+    
+    <input type = "button" id = "button" value = "I'm finished" onclick = "check()">
+    
+
+
+</form>
+
+<div id = "after_submit">
+    <p id = "number_correct"></p>
+</div>
+
+</script>
+</body>
+</html>
